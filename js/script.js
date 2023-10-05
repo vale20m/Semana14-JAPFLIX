@@ -97,7 +97,7 @@ function showElements(array){
             <div class="row bg-secondary">
                 <div class="col-8 text-white">${movie.title}</div>
                 <div class="col-4 text-end">${showStars(movie.vote_average)}</div>
-                <div class="col-10 text-white-50">${movie.tagline}</div>
+                <div class="col-12 text-white-50">${movie.tagline}</div>
             </div>
         </li>
 
